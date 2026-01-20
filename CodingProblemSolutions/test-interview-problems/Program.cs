@@ -269,8 +269,8 @@ static void TestDataStructureinCsharp()
     sortedSet.Remove(6);
     sortedSet.Add(7);
     sortedSet.Remove(8);
-    int min = sortedSet.Min;
-    int max = sortedSet.Max;
+    //int min = sortedSet.Min;
+    //int max = sortedSet.Max;
 
     // LinkedList
     LinkedList<int> linkedList = new LinkedList<int>();
@@ -348,9 +348,9 @@ static void TestDataStructureinCsharp()
     dict["two"] = 2;
     dict.Remove("one");
     // HashSet
-    HashSet<int> set = new HashSet<int>() { 1, 2, 3 };
-    set.Add(4);
-    set.Remove(2);
+    //HashSet<int> set = new HashSet<int>() { 1, 2, 3 };
+    //set.Add(4);
+    //set.Remove(2);
 }
 
 static void TestControlFlowinCsharp()
