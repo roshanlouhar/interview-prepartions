@@ -1,0 +1,14 @@
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\bin\Debug\net8.0\TestProblems.exe
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\bin\Debug\net8.0\TestProblems.deps.json
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\bin\Debug\net8.0\TestProblems.runtimeconfig.json
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\bin\Debug\net8.0\TestProblems.dll
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\bin\Debug\net8.0\TestProblems.pdb
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\TestProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\TestProblems.AssemblyInfoInputs.cache
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\TestProblems.AssemblyInfo.cs
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\TestProblems.csproj.CoreCompileInputs.cache
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\TestProblems.dll
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\refint\TestProblems.dll
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\TestProblems.pdb
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\TestProblems.genruntimeconfig.cache
+C:\Users\rolouhar\source\repos\TestProblems\TestProblems\obj\Debug\net8.0\ref\TestProblems.dll

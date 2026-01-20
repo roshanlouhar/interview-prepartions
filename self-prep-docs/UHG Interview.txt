@@ -1,0 +1,25 @@
+Database--------------------------------------------------
+About SQL Server Execution plan
+About Indexing in SQL and How and when to create index 
+About primary and unique keys
+About Relational database and NoSQL database
+How to optimize query?
+
+
+C#-------------------------------------------------------
+Stack vs Heap in C# memory management
+value type and ref type
+Can we have a class as private?
+diff between private, public , protected and internal keyword
+about web services
+
+.Net and .Netcore framework------------------------------
+diff between .net and core
+deferred and immediate execution in LINQ
+About MVC 
+What is $ in JQuery
+on vs bind vs live function
+windows.load vs document.ready function
+
+
+

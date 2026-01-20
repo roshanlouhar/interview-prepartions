@@ -1,0 +1,277 @@
+String problem solving
+https://www.c-sharpcorner.com/article/top-c-sharp-string-technical-interview-questions/
+https://ankitsharmablogs.com/csharp-coding-questions-for-technical-interviews/
+How to extract numbers from a string using regular expressions?
+
+
+Array Problem Solving
+https://www.csharpstar.com/top-10-arrays-programming-interview-questions-in-csharp/
+
+ 
+SOLID principles
+https://www.qfles.com/interview-question/solid-principles-interview-questions	
+https://medium.com/@jhorazakaryan/the-solid-cheat-sheet-b383b01a4db
+https://www.qfles.com/interview-question/csharp-design-patterns-interview-questions\
+https://www.fullstack.cafe/blog/design-patterns-interview-questions
+
+cloud computing
+https://www.interviewbit.com/azure-interview-questions/\	
+
+OOPS 
+30. What is meant by data abstraction?
+31. How can data abstraction be accomplished?
+7. Is it always necessary to create objects from class?
+Difference between encapsulation and abstaraction
+Static loading vs dynamic loadfing 
+diff between interface and abstarct example in real time
+diff between procedural and oops programming
+diff between virtual and abstarct method in a class ? when you need it ?
+Can you specify the accesibility modifier in interface and what is default?
+How can you preven a class from overriding ?
+overloading vs overridiing ?
+what is polymorphism and how iot is used?
+Does .net support mutiple inheritence ?
+Do you know difference between cohesion and coupling ?
+You have defined a destructor in a class that you have developed by using the C# programming language, but the destructor never executed. Why did the destructor not execute?
+Why Doesn't C# Allow Static Methods to Implement an Interface?
+What is the difference between associat
+ion, aggregation and composition?
+In terms that an OOP programmer would understand (without any functional programming background), what is a monad?
+Can you provide a simple explanation of methods vs. functions in OOP context?
+How can you restrict a class object crweation instance?
+What's the advantage of using getters and setters - that only get and set - instead of simply using public fields for those variables?
+SOLID principle
+
+SQL 
+How is RDBMS different from DBMS?
+Define Constraints.
+---NOT NULL 
+---CHECK
+---DEFAULT
+---UNIQUE
+---PRIMARY KEY
+---FOREIGN KEY
+diff betrween primary and unique keys?
+what is advalge of triggers 
+what is advalge of stored procedure
+How will you improve database performence if it is working very slowly?
+Diff SQL vs NOSQL and whenm to chooose 
+ACID vs BASE proerties?
+What is data intergrity and how may type of it?
+		Row integrity
+		Column integrity
+		Referential integrity
+		User-defined integrity 
+
+15. What are the User-defined Functions? Name the types of User-defined Functions.
+	Scalar functions.
+	Inline table-valued functions.
+	Multi statement valued functions.
+CAn you write DML styatement in functions anmd why?
+Define Collation. Name the different types of collation sensitivity.
+diff bertween view and temp tables?
+
+C# and .NET questions
+28. Why are Minification and Bundling introduced in MVC?
+31. Make a differentiation between View and Partial View?
+33. Mention the significance of NonActionAttribute?
+19. How is the routing carried out in MVC?
+23. How will you differentiate between ActionResult and ViewResult?
+50. How will you explain the concept of RenderBody and RenderPage of MVC?
+49. Point out the 2 instances where you cannot use routing or where routing is not necessary?
+What are the attribute in c# and MVC?
+Exception handling -Try/Catch/finally blocks?
+Why we should not implment generic Exception in catch blocks?
+Will finally will be executed if catchj block is executed.
+Diff between var and dynamic keywords?
+What is boxing and unboxing keyword?
+What is managed and unmanaged code ?
+Why to use finally block in C#?
+Can you return multiple values from a function in C#? Provide some examples.? {ref vs out keyword}
+Explain annoymous type in c#?
+Explain between task and thtead in c#?
+What is the use of using keyword in c#?
+what is diff between constant and readonly?
+What is the early binding and late binding in c#
+What is the yield keyword?
+Why to use lock statement in c#?
+What are the defreed execution in LINQ?
+What are the filter type in MVC 
+What is the lifecycle of MVC page and in which orders filter will be executed?
+What is CORS and how will implmenmt it ?
+What is diff between ienumeable or Iqueryable ?
+What will happen when you type url in browser?
+
+
+
+WEB API and Web technologies
+How to you can limit Access to Web API to Specific HTTP Verb?
+20) What is the meaning of TestApi?	
+23) How you can return View from ASP.NET Web API method?
+25) Explain what is REST and RESTFUL?\	
+50) How can we make sure that Web API returns JSON data only?
+Diff between web service and web API and WCF ?
+What will you do if need to upgrade you web service to web API ?
+Why is Web API required? Is it possible to use RESTful services using WCF?
+5) What are the advantages of Web API?
+What are main return types supported in Web API?
+By default, Web API sends HTTP response with which of the following status code for all uncaught exception?
+14) What is SOAP?
+15) What is the benefit of using REST in Web API?
+30) How can you pass multiple complex types in Web API?
+48) State differences between MVC and WebAPI
+8) Define WSDL?
+Could  you name the core components of the HTTP request and HTTP response?
+Please explain what you understand by SOA.
+What is the DISCO file in web service?
+---Can you update the data the using get method then why you need delte and other http verbs?
+
+
+AZURE DEVOPS AND AZURE CLOUD
+How many type of Azure service availble and type of cloud service and deployment model?
+WEB Role vs Worker Role and VM role
+diff between availablility zone and avaiability set.
+What are Microsoft Azure role-based certification exams or paths?
+Can you move a resource from one group to another?
+How many resource groups a subscription can have?
+What is Azure Storage and what type of service is avialble?
+Diff between azure table and Azure SQL?
+What are the different ways to host web sites in Azure?
+How the app services can be scaled?
+What is Server-less Computing?
+How to choose between DTU and vCore?
+What is Azure Cosmos DB?
+Diff between faiult domain vs update domain and hjow many we can have?
+16. What are Network Security Groups?
+Diff between service queue and storage queue?
+48. What are stateful and stateless microservices for Service Fabric?
+
+
+1.     How the Encapsulation is different from Abstraction? I think both are used to hide the unnecessary details? Then how they are different?
+2.     What do you mean by early binding and late binding in the object bindings? Which is good? Please give me a scenario where you have used 
+3.  In garbage collection, how the object generations come in the picture? How many generations an object can have? Please tell me the process of disposing the objects based on the generations? Can an object move from one generation to another? If yes then why? What’s the need to have different generations as we are going to dispose the objects which are marked by the Garbage collector?
+4.     What is object graph in garbage collector? Is this the graph physically exists? Or how this graph gets created?
+5.     Can we suppress the Garbage collector? If yes, then why do we need to suppress it as it is used to reclaim the unused memory and which improve s the performance of our application?
+6.  We already have the Finalize method which reclaims the memory using the Garbage collector. This is automatic process then why do we have the Dispose () method? Is this method different from Finalize ()? What is the interface from which the Dispose () method inherited?
+7.     Can we call the Finalize() method to be executed explicitly when we want that particular object memory to be reclaim by the Garbage Collector? If yes, then where do we need to write the code? If no then why?
+8.     Can we inherit child class from 2 base classes? If yes then how? If not then why? What is this scenario called as in OOPs? How to implement this kind of scenario where we need to inherit the methods from more than one base class?
+9.     How the Virtual methods are different from General methods? Can we have a method in the base class and then in the child class can we write the same method? If not? Why? What is the error we will get if we write the same method in the child class with the same name as the parent class method name?
+10. Why do we need abstract class or abstract members? Can’t we simply write the general methods and fulfill our requirements? Can we get any advantage by implantation of abstract members? As per the abstract class scenario, let’s say we have an abstract method called Show () in the abstract base class. Now if I am inheriting this base class to a child class, we need to override this abstract method to the child class. And then we will call this method by creating instance of child class.Now if we only have the method in the child class and then create the instance and call the same method? Then why abstract class method? Is that method doing anything here?
+11. How abstract class and interfaces are different? Can’t we create an abstract class by having all the members as abstract members and wherever required inherit and implement its members? Then why interface? I think interface is also doing the same thing? Then how they are different?
+12. Can we have abstract properties in Interface? If yes, then how to write the syntax for the abstract property which is having the return type string?
+13. Can we write static methods inside a non-static class? Is it possible to call a non-static method inside the static method? If yes then how?
+14. Shadowing is the special type of overriding? How? Please explain?
+15. When we inherit a class which is having the private members. Are the private members also gets inherited? If yes? Why cant’ we get them by the class object? If no then why?
+16.  What is the Difference between Coupling and Cohesion? If the components are more cohesive the software is good? Or vice versa?
+17. See the below code snippet and think about the output.
+18.  What is the Difference between HTTP enabled WCF Service and Web Services? I think if we restrict the WCF service just for the HTTP communication, both WCF and Web Service will have the same behavior. Then why still people prefer to have the WCF service rather than the Web Service. What all the things which can be achieved through HTTP enabled WCF service and cant be just from Web Service.
+19.  What is the Difference between SOAP enabled Services and ReST Services? Which one is preferred and why?
+........................................................................................................
+
+1. Why we used Inheritance. What is the benefit of this.
+2. Why C# does not support Multiple Inheritance. 
+3. Why we used virtual keyword.
+4. If my base class does not have virtual keyword but both class have same method , parameter and return type. then what will happen. base class method will be called or only child class method will called.
+5. What are events and actions in c#.
+6. What is user define function in SQL or What are the user define function available in SQL.
+7. If we have one Master Page , one aspx page and one ascx page then which one will called 1st while page_load event and which one called 1st while page_Unload event.
+8. What is Indexers and please give the description with example.
+9. What are indexes in Database. How many types of Indexes in SQL Server
+10.Why we use Interface.
+11.Why we use Method Overloading
+12. Why we use Method Overriding
+Ans. Method overriding is the concept where we can use the same method in parent as well as in child class to reduce the memory and use the similar behavior. If we don't want to change the behavior, we need not to override it. So to make the changes in the behavior, we use the overriding.
+13. What is the difference between Abstraction and Encapsulation.
+14. In which case we can use Abstract class in our project.
+15. What is the difference between Array List and Ilist.
+16. What is difference between internal class and sealed class.
+18. What is the difference between Remoting and web service.
+19. Can we use viewstate in MVC.
+
+
+OOPS design questions:
+
+Q1: What is inheritance?
+Q2: What is object-oriented programming (OOP)?
+Q3: What is encapsulation?
+Q4: What is polymorphism?
+Q5: What is the difference between procedural and object-oriented programming?
+Q6: Explain the concept of constructor?
+Q7: Why is the virtual keyword used in code?
+Q8: What is the difference between a class and a structure?
+Q9: What is the relationship between a class and an object?
+Q10: When should I use a struct instead of a class?
+Q11: What is polymorphism, what is it for, and how is it used?
+Q12: What do you mean by data encapsulation?
+Q13: What are abstract classes? What are the distinct characteristics of an abstract class?
+Q14: What are similarities between a class and a structure?
+Q15: How can you prevent a class from overriding in C#?
+Q16: How is method overriding different from method overloading?
+Q17: Can you specify the accessibility modifier for methods inside the interface?
+Q18: Is it possible for a class to inherit the constructor of its base class?
+Q19: What is the difference between cohesion and coupling?
+Q20: What's the advantage of using getters and setters - that only get and set - instead of simply using public fields for those variables?
+Q21: What exactly is the difference between an interface and abstract class?
+Q22: What is Coupling in OOP?
+Q23: What is Cohesion in OOP?
+Q24: Explain the concept of destructor?
+Q25: Differentiate between an abstract class and an interface.
+Q26: What is a static constructor?
+Q27: Explain different types of inheritance.
+Q28: Does .NET support multiple inheritance?
+Q29: Can you declare an overridden method to be static if the original method is not static?
+Q30: Why Doesn't C# Allow Static Methods to Implement an Interface?
+Q31: What is the difference between a mixin and inheritance?
+Q32: In terms that an OOP programmer would understand (without any functional programming background), what is a monad?
+Q33: What is LSP (Liskov Substitution Principle) and what are some examples of its use (good and bad)?
+Q34: Could you elaborate Polymorphism vs Overriding vs Overloading?
+Q35: What does it mean to “program to an interface”?
+Q36: Can you provide a simple explanation of methods vs. functions in OOP context?
+Q37: Why prefer composition over inheritance? What trade-offs are there for each approach? When should you choose inheritance over composition?
+Q38: What is the difference between association, aggregation and composition?
+Q39: Can you declare a private class in a namespace?
+Q40: You have defined a destructor in a class that you have developed by using the C# programming language, but the destructor never executed. Why did the destructor not execute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

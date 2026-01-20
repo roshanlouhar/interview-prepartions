@@ -1,0 +1,63 @@
+css and  library mini and bundling
+
+azure affinity grps and reliability
+azure scalability
+azure function app serverless and scaling
+
+Iqueryable and Ienumerable
+c# linq and lamda expression
+delegates
+entity framework and sql stored proc in it
+test and prod slots for app service
+
+azure function app exact advantage
+azure function app v/s web jobs
+ARM templates sections
+CI/CD values to be configured for code coverage
+parallel processing different database o/p how to catch
+how to access key vault in CICD pipeline
+APIM how to authenticate through azure active directory
+Authentication through ApIM
+
+georeplication in app service – how to do
+
+azure function how to implement dependency injection
+azure function having startup.cs
+c# recursive v/s calling another function internals
+ref and out parameter in c#
+delegates and events
+Anonymous functions
+
+Sql server modelling
+different models like managed instance or SPL
+
+Middleware azure identity model
+Difference between Post and Put
+Async await programming
+
+For task list if we are executing database calls and one result is dependent on another means it is returning something then how to handle it
+
+Blockchain azure
+Azure kubernates docker
+
+Sql injection ,security, cross site scripting
+Key vault
+backup and recovery vault
+Red blue security
+green blue deployment
+
+Service bug v/s queue v/s event hub
+
+Repository pattern which implemented in RNA How?
+factory design pattern and singleton pattern and abstract factory
+Singleton pattern
+Identity provider v/s service provider
+claims in azure active directory
+access rights like admin in azure ad
+
+Framework classes are implemented ? nullable types etc…
+
+Azure app service plan and consumption plan
+Logic apps on premise integration
+How to execute ARM templates?
+
