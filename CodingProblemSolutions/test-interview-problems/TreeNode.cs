@@ -1,5 +1,5 @@
 ﻿
-namespace TestProblems
+namespace test_interview_problems
 {
     // Define a simple binary tree node
     public class TreeNode

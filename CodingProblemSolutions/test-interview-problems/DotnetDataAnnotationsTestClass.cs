@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace TestProblems
+namespace test_interview_problems
 {
     public class DotnetDataAnnotationsTestClass
     {
