@@ -11,6 +11,9 @@ Console.WriteLine("Happy Codings!");
 ///new test_interview_problems.ArrayProblems();
 
 // test 2D Array problems
-new test_interview_problems._2dArrayProblems();
+//new test_interview_problems._2dArrayProblems();
+
+// test Agoda interview questions
+new test_interview_problems.AgodaInterviewQuestions();
 
 
