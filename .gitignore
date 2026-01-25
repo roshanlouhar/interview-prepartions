@@ -2,7 +2,18 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CodingProblemSolutions/.vs/CodingProblemSolutionsConsole
-/CodingProblemSolutions/CodingProblemSolutions/obj/
-/CodingProblemSolutions/test-interview-problems/obj
-/CodingProblemSolutions/test-interview-problems/bin/Debug/net8.0
+# all the files under .vs folder
+/CodingProblemSolutions/.vs/
+# all the build process generated files
+/CodingProblemSolutions/CodingProblemSolutions/obj/*
+# all the build output files
+/CodingProblemSolutions/test-interview-problems/bin/*
+
+# Ignore all bin folders
+**/bin/
+# Ignore all obj folders
+**/obj/
+
+# Ignore .vs folder
+**/.vs/
+**/CodingProblemSolutions/.vs/
