@@ -17,7 +17,6 @@
   <ItemGroup>
     <Folder Include="BasicDataStructure\" />
     <Folder Include="MathsSolutions\" />
-    <Folder Include="OopsConcept\" />
   </ItemGroup>
 
 </Project>
