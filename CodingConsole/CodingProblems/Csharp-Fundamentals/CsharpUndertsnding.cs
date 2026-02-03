@@ -96,47 +96,6 @@ namespace test_interview_problems
 
             return 2 * CalFactorial(number - 1);
         }
-        public static void CheckDataStructureBuiltInCSharp()
-        {
-            Dictionary<int, int> Dictionarylist = new Dictionary<int, int>();
-
-            Stack<int> stacklist = new Stack<int>();
-
-            Queue<int> queuelist = new Queue<int>();
-
-            LinkedList<int> linkedlist = new LinkedList<int>();
-
-            ArrayList arraylist = new ArrayList();
-
-            SortedSet<int> sortedSet = new SortedSet<int>();
-
-            SortedList<int, int> sortedlist = new SortedList<int, int>();
-
-            SortedDictionary<int, int> sortedDictionary = new SortedDictionary<int, int>();
-
-            HashSet<int> hashSet = new HashSet<int>();
-
-            Hashtable hashTable = new Hashtable();
-            //hashTable.Add("A", "1");
-            //hashTable.Add("B", "1");
-            //hashTable.Add("C", "3");
-            //hashTable.Add("D", "2");
-
-            //Console.WriteLine(hashTable.Keys.Count);
-            //Console.WriteLine(hashTable.Values.Count);
-
-
-            //for (int i = 0; i < hashTable.Count; i++)
-            //{
-            //    Console.WriteLine(hashTable.ContainsValue(i.ToString()));
-            //}
-
-
-            Tuple<int, int, int, int> tupleList = new Tuple<int, int, int, int>(3, 4, 3, 4);
-
-
-            //LinkedListNode<int> linkedlistNode = new 
-
-        }
+       
     }
 }

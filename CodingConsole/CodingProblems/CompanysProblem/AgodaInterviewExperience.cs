@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace test_interview_problems.CompanysProblem
 {
-    public class AgodaInterviewQuestions
+    public class AgodaInterviewExperience
     {
-        public AgodaInterviewQuestions()
+        public AgodaInterviewExperience()
         {
             Console.WriteLine("Running Agoda Interview Questions...");
             Run();

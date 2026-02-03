@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace test_interview_problems.CompanysProblem
 {
-    public class SymmetricTreeProblems
+    public class WPP_SymmetricTreeProblems
     {
-        public SymmetricTreeProblems()
+        public WPP_SymmetricTreeProblems()
         {
             var result = SymmetricTreeUsingQueues(new string[] { "4", "3", "4" });
         }

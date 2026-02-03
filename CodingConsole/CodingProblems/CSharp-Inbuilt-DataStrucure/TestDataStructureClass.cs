@@ -11,6 +11,49 @@ namespace test_interview_problems
 {
     public class TestDataStructureClass
     {
+        public static void CheckDataStructureBuiltInCSharp()
+        {
+            Dictionary<int, int> Dictionarylist = new Dictionary<int, int>();
+
+            Stack<int> stacklist = new Stack<int>();
+
+            Queue<int> queuelist = new Queue<int>();
+
+            LinkedList<int> linkedlist = new LinkedList<int>();
+
+            ArrayList arraylist = new ArrayList();
+
+            SortedSet<int> sortedSet = new SortedSet<int>();
+
+            SortedList<int, int> sortedlist = new SortedList<int, int>();
+
+            SortedDictionary<int, int> sortedDictionary = new SortedDictionary<int, int>();
+
+            HashSet<int> hashSet = new HashSet<int>();
+
+            Hashtable hashTable = new Hashtable();
+            //hashTable.Add("A", "1");
+            //hashTable.Add("B", "1");
+            //hashTable.Add("C", "3");
+            //hashTable.Add("D", "2");
+
+            //Console.WriteLine(hashTable.Keys.Count);
+            //Console.WriteLine(hashTable.Values.Count);
+
+
+            //for (int i = 0; i < hashTable.Count; i++)
+            //{
+            //    Console.WriteLine(hashTable.ContainsValue(i.ToString()));
+            //}
+
+
+            Tuple<int, int, int, int> tupleList = new Tuple<int, int, int, int>(3, 4, 3, 4);
+
+
+            //LinkedListNode<int> linkedlistNode = new 
+
+        }
+
         public static void TestDataStructureinCsharp()
         {
             // initialize frozen set and assign values
@@ -20,7 +63,7 @@ namespace test_interview_problems
             List<int> sampleList = new List<int> { 1, 2, 3 };
             FrozenSet<int> frozenSet = FrozenSet.ToFrozenSet(sampleList);
             frozenSet.Contains(2);
-            
+
             // heap
             SortedSet<int> heap = new SortedSet<int>();
             heap.Add(3);
@@ -103,7 +146,7 @@ namespace test_interview_problems
             linkedList.Remove(5);
             linkedList.AddLast(6);
             linkedList.Remove(7);
-               
+
             // Queue using LinkedList
             LinkedList<int> queueLinkedList = new LinkedList<int>();
             queueLinkedList.AddLast(1);
@@ -235,17 +278,17 @@ namespace test_interview_problems
 
             // Create a simple binary tree
             TreeNode root = new TreeNode(1);
-            root.Left = new TreeNode(2);
-            root.Right = new TreeNode(3);
-            root.Left.Left = new TreeNode(4);
-            root.Left.Right = new TreeNode(5);
+            root.SetLeft(new TreeNode(2));
+            root.SetRight(new TreeNode(3));
+            root.GetLeft().SetLeft(new TreeNode(4));
+            root.GetLeft().SetRight(new TreeNode(5));
             // In-order traversal
             void InOrderTraversal(TreeNode node)
             {
                 if (node == null) return;
-                InOrderTraversal(node.Left);
-                Console.WriteLine(node.Value);
-                InOrderTraversal(node.Right);
+                InOrderTraversal(node.GetLeft());
+                Console.WriteLine(node.GetData());
+                InOrderTraversal(node.GetRight());
             }
             // Perform in-order traversal
             InOrderTraversal(root);
@@ -404,20 +447,20 @@ namespace test_interview_problems
             while (queue.Count > 0)
             {
                 TreeNode current = queue.Dequeue();
-                Console.WriteLine(current.Value);
-                if (current.Left != null)
-                    queue.Enqueue(current.Left);
-                if (current.Right != null)
-                    queue.Enqueue(current.Right);
+                Console.WriteLine(current.GetData());
+                if (current.GetLeft() != null)
+                    queue.Enqueue(current.GetLeft());
+                if (current.GetRight() != null)
+                    queue.Enqueue(current.GetRight());
             }
         }
 
         public static void DFSOnTree(TreeNode node)
         {
             if (node == null) return;
-            Console.WriteLine(node.Value);
-            DFSOnTree(node.Left);
-            DFSOnTree(node.Right);
+            Console.WriteLine(node.GetData());
+            DFSOnTree(node.GetLeft());
+            DFSOnTree(node.GetRight());
         }
 
     }

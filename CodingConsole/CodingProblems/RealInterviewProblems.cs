@@ -9,9 +9,9 @@ namespace test_interview_problems
     /// <summary>
     /// interview problems collection
     /// </summary>
-    internal class testProblems
+    internal class RealInterviewProblems
     {
-        static void Main(string[] args)
+        public RealInterviewProblems()
         {
             #region biggest sum 
             //Console.WriteLine("Hello World!");

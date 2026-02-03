@@ -6,13 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace test_interview_problems
+namespace test_interview_problems.CompanysProblem
 {
-    public class amazoninterview
+    public class AmazonInterviewExperience
     {
 
         static int NO_OF_CHARS = 256;
-        static void Main(string[] args)
+        public AmazonInterviewExperience()
         {
             // The code provided will print ‘Hello World’ to the console.
             // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.

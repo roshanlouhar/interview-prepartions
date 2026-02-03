@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace test_interview_problems
 {
-    public class DCP
+    public class DailyCodingProblems
     {
-        static void Main(string[] args)
+        public DailyCodingProblems()
         {
             //Console.WriteLine("Hello World!");
             #region Given a list of numbers, return whether any two sums to k.

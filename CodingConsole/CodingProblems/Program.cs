@@ -14,6 +14,6 @@ Console.WriteLine("-------------Happy Codings vibes!---------------------");
 //new test_interview_problems._2dArrayProblems();
 
 // test Agoda interview questions
-new test_interview_problems.CompanysProblem.AgodaInterviewQuestions();
+new test_interview_problems.CompanysProblem.AgodaInterviewExperience();
 
 
