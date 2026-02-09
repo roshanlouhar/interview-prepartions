@@ -2,6 +2,8 @@
 
 // about creating a console application using C# 12.0. solving important interview problems faced by developers
 
+using test_interview_problems;
+
 Console.WriteLine("-------------Happy Codings vibes!---------------------");
 
 // test Priority Queue problem
@@ -14,6 +16,7 @@ Console.WriteLine("-------------Happy Codings vibes!---------------------");
 //new test_interview_problems._2dArrayProblems();
 
 // test Agoda interview questions
-new test_interview_problems.CompanysProblem.AgodaInterviewExperience();
+//new test_interview_problems.CompanysProblem.AgodaInterviewExperience();
 
-
+// test chsarpbasic 
+//CsharpUndertsnding test = new CsharpUndertsnding();

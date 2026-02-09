@@ -10,16 +10,39 @@ namespace test_interview_problems
 {
     public class CsharpUndertsnding
     {
-        static void Main(string[] args)
+        public CsharpUndertsnding()
         {
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            //Console.ForegroundColor = ConsoleColor.DarkGreen;
+            
+            #region checking value type and refrence types
+            // value types 
+            int a = 10;
+            int b = a;
+            b++;
+            Console.WriteLine(b++); Console.WriteLine(a++);
+
+            TestReferenceTypes obj = new TestReferenceTypes() { Id = 10, Name = "test" };
+            TestReferenceTypes obj2 = obj;
+            obj2.Name = "testchnages";
+            obj2.Id = 343;
+
+            Console.WriteLine(obj.Id + " - " + obj.Name);
+            Console.WriteLine(obj2.Id + " - " + obj2.Name);
+
+
+
+            #endregion
+
+
             #region find greater element in array of current element and insert index at i th position in third array.
             //int[] array = { 4, 5, 8, 3, 7, 9 };
             //CheckNextGreaterElmentIndexInArray(array);
             #endregion
 
             #region  c# inbuilt data structure libraray for testing 
-            int result = gcd(20, 5);
-            Console.WriteLine(result + System.Environment.NewLine);
+            //int result = gcd(20, 5);
+            //Console.WriteLine(result + System.Environment.NewLine);
             #endregion
 
             #region  Binary Search using recursion
@@ -45,7 +68,7 @@ namespace test_interview_problems
             //Console.WriteLine(result);
             #endregion
 
-            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            
             Console.ReadKey();
         }
 
@@ -96,6 +119,12 @@ namespace test_interview_problems
 
             return 2 * CalFactorial(number - 1);
         }
-       
+    }
+
+    class TestReferenceTypes
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
     }
 }
