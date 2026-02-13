@@ -14,13 +14,18 @@ namespace test_interview_problems
         {
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             //Console.ForegroundColor = ConsoleColor.DarkGreen;
+
+            int[] a = { 1,2,3,4,5};
+            Array.Sort(a);
             
+            
+
             #region checking value type and refrence types
             // value types 
-            int a = 10;
-            int b = a;
-            b++;
-            Console.WriteLine(b++); Console.WriteLine(a++);
+            int aaa = 10;
+            int bbb = aaa;
+            bbb++;
+            Console.WriteLine(bbb++); Console.WriteLine(aaa++);
 
             TestReferenceTypes obj = new TestReferenceTypes() { Id = 10, Name = "test" };
             TestReferenceTypes obj2 = obj;

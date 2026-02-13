@@ -89,6 +89,7 @@ namespace test_interview_problems.Csharp_Fundamentals
                 var val = List.Dequeue();
                 List.Enqueue(key, val++);
             }
+            CacheLookup.Values.min
 
             return result;
 
