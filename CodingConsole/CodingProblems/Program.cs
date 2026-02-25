@@ -3,6 +3,7 @@
 // about creating a console application using C# 12.0. solving important interview problems faced by developers
 
 using test_interview_problems;
+using test_interview_problems.OopsConcept;
 
 Console.WriteLine("-------------Happy Codings vibes!---------------------");
 
@@ -20,3 +21,6 @@ Console.WriteLine("-------------Happy Codings vibes!---------------------");
 
 // test chsarpbasic 
 //CsharpUndertsnding test = new CsharpUndertsnding();
+
+// test abstarct class 
+TestAbstractEmployee obj = new TestAbstractEmployee();
