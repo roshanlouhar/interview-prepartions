@@ -1,0 +1,46 @@
+First round Shell
+
+Hiring Manager Interview Round [45-60 Min]
+Overview
+The Hiring Manager round is a critical stage in the interview process, designed to assess the candidate’s fit for the role and the organization. This round typically involves a detailed discussion covering a range of topics to better understand the candidate’s background, motivations, and future aspirations.
+Discussion Points
+1.	Introduction and Self-Description 
+Candidates are asked to share information about themselves, providing insight into their professional journey, skills, and personal attributes.
+2.	Role and Responsibilities 
+The conversation centers on the specific role the candidate is being considered for, including an exploration of key responsibilities and expectations.
+3.	Major Projects in the Last 2-3 Years 
+Candidates are invited to discuss significant projects they have completed recently, highlighting the roles they played and the impact of their contributions.
+4.	Motivation for Change and Relocation 
+The interviewer seeks to understand the reasons behind the candidate’s desire for a career move and their willingness to relocate to Bangalore.
+5.	Five-Year Outlook and Commitment 
+Candidates are asked where they envision themselves within the organization after five years, as well as the length of time they are willing to commit to the company.
+6.	Major Challenges and Problem-Solving Approach (STAR Method) 
+The candidate is prompted to describe a significant challenge they have faced, detailing how they addressed it using the Situation, Task, Action, and Result (STAR) method.
+7.	Keeping Technical Skills Up to Date 
+The interviewer explores how the candidate stays current with technical skills and industry developments.
+
+--------------------------------------------------------------------------------------------------------------
+
+Shell 2nd Round
+
+Shell final round R2 1 hours, 2 interviewers.
+-------------------------------------------------------------------
+1. How to check if there a deadlock before doing next call in your retry logic, is there any property to identify the same. How to implement it.
+2. How to make sure your code is thread safe when doing parallel calls.
+3. For httpclient in C# how to create and manage its instance for your application lifecycle. How you will design this.
+4. Questions on CQRS design pattern for API, how to call multiples in parallel.
+5. Which design pattern you will use for DB layer. Why not singleton?
+6. Authentication , how jwt token works in Azure AD, where you configure this in API.
+7. Managed Identity authentication --> Web App UI and Web App API how to configure MI for these scenario.
+8. Service principle based authentication and its limitations. Follow up can you use same service principle for two subscriptions.
+9. How to pass data from one component to another component in Angular.
+10. What is the difference between async await and promise calls in Angular.
+11. What is the difference between dependency injection in Angular Vs in .NET core.
+12. There is a dashboard and user reports slowness at a specific time during the day how you will diagnose this issue. (follow up question how you will trouble shoot perf issue in SP stored procedure). How you will diagnose the same query slowness issue with Cosmos DB.
+13. How you will use Redis cache (methods available) , ttl. And then follow up question you have two servers using the same redis cache service how you will design to use the redis cache or which caching strategy you will use (hint: consider key collision scenarios).
+14. You have a backend API and you want to only allow the requests from two domains lets say a.b.com and c.d.com how you will achieve this? (cros middleware).
+15. Lets say you have implemented a authentication scenario for you application using one provider (Azure), but provided can keep changing , so you will design your application to be provider agnostic.
+16. Pros and cons of using GHCP, how you will configure GHCP for your repository which settings you will enable.
+17. How async await works internally.
+
+Main focus of the interview was on design patterns, threading.
