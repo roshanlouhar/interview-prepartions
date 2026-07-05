@@ -1,6 +1,0 @@
-First round 45 mins
-
-1. LRU, LFU implement in C#.
-2. Implement comparison for version strings like "1.2.10" vs "1.3". // -1 Return -1, 0, or 1. // 1.2.10 , 1.2.8 ==> 0 // 1.2. , 1.2 ===> 1
-3. There is an API or code logic, it has completed the logic but some error ouccred before updating the completetion process. How will you design to handle this scenario. (idempotency).
-4. Difference between TPL and async, await.
